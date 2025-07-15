@@ -1,3 +1,5 @@
+package Lesson3
+
 fun discountFivePercent(price: Double): Double { return price * 0.95  }
 fun DiscountFivePercent(price: Double): Double = price * 0.95
 
@@ -16,4 +18,4 @@ fun main(){
     println(discount(50.0))
 }
 
-//TODO: I don't want no discount to be applied, I want an error if generateDiscount isn't called!
+//TODO: I don't want no Lesson3.discount to be applied, I want an error if Lesson3.generateDiscount isn't called!

@@ -1,6 +1,7 @@
+package Lesson3
+
 import javax.swing.*
 import java.awt.*
-import kotlin.math.*
 
 fun drawPointPairs(g: Graphics, list : List<Nothing?>){  //TODO: Replace "Nothing?" with something!
     //should get a list of 4 doubles + extra data somehow

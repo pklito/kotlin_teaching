@@ -1,0 +1,4 @@
+This lesson matches chapter 7 in the kotlin guide: https://typealias.com/start/kotlin-lambdas/
+As well as touching on chapter 8.
+
+Also, Recaps of chapters 4-6.

@@ -1,4 +1,4 @@
-import java.util.Vector
+package Lesson3
 
 enum class Units{
     METERS,
@@ -22,7 +22,7 @@ class RobotArm{
             this.armLength *= INCHES_TO_METERS
             //this.shoulderLength *= INCHES_TO_METERS
             //this.palmLength *= INCHES_TO_METERS
-        }//TODO: optional: `implement convertUnitsToMeters(value: Double, from_units: Units): Units` and implement Units.Centimeters
+        }//TODO: optional: `implement convertUnitsToMeters(value: Double, from_units: Lesson3.Units): Lesson3.Units` and implement Lesson3.Units.Centimeters
     }
 
     fun calculateEndEffector(angleDegrees: Double): Pair<Double, Double> {
@@ -30,7 +30,7 @@ class RobotArm{
         //  Y
         //  |
         //  . _ _ X
-        // If the angle is zero, the robot arm extends towards X.
+        // If the Lesson3.angle is zero, the robot arm extends towards X.
         // If the robot HAS A WRIST, 0.05 cm are added to the length.
         return Pair(0.0, 0.0)
     }
