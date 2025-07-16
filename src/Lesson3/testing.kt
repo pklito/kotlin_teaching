@@ -27,11 +27,12 @@ class RobotArm{
 
     fun calculateEndEffector(angleDegrees: Double): Pair<Double, Double> {
         // TODO: task 2, Implement this method
+        // TODO: If the robot HAS A WRIST, 0.05 cm are added to the length.
         //  Y
         //  |
         //  . _ _ X
-        // If the Lesson3.angle is zero, the robot arm extends towards X.
-        // If the robot HAS A WRIST, 0.05 cm are added to the length.
+        // example: armlength = 2.0, angle = 0: return (2.0, 0)
+        //          armlength = 2.0, angle = 60: return (1.0, 1.732)
         return Pair(0.0, 0.0)
     }
 }
@@ -42,7 +43,7 @@ class RobotArm{
 var angle = 0.0
 fun loop(robot: RobotArm){
     println(robot.calculateEndEffector(angle))
-    angle += 20
+    angle += 30
 }
 
 fun main(){
