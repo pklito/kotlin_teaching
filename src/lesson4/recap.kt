@@ -2,6 +2,9 @@ package lesson4
 
 import kotlin.math.sqrt
 
+fun getAngle() : Float {
+    return 45f
+}
 
 fun calculateSum(a : Int, b: Int) : Int {
     return a + b
